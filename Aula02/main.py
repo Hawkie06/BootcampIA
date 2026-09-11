@@ -56,3 +56,11 @@ l1 = [1,2,3,4,5,6,7,8,9]
 
 for idx in range (8,10):
     print(idx)
+
+arr = [5,6,2,8,1] 
+arr.sort()
+print(arr)
+
+arr1 = ["Pedro","Ana","Julia"] 
+arr1.sort()
+print(arr1)
