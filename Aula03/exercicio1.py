@@ -6,7 +6,7 @@ for _ in range(int(input())):
         score = float(input())
         alunos_notas.append([name,score])
         if notas.count(score) == 0:
-            notas.append(score)
+                notas.append(score)
         
 alunos_notas.sort()
 notas.sort()
