@@ -28,11 +28,6 @@ class Aluno:
         print(f"A média dele é: {self.calcular_media():.2f}")
         
 
-
-
-
-aluno = Aluno("Náthally", [10,10,10])
-aluno.apresentar_aluno()
-aluno2 = Aluno("João", [20,10,50])
-aluno2.apresentar_aluno()
-
+Turma = { "alunos": [Aluno("Náthally", [10,10,10]),  Aluno("João", [20,10,50])]}
+for aluno in Turma["alunos"]:
+    aluno.apresentar_aluno()
