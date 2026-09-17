@@ -1,0 +1,9 @@
+numpy >=2.5.3 #Instala a versão maior igual a que está nesse vienv
+pandas >=3.0.5
+seaborn >=0.13.2
+
+# Comando para baixar vários pacotes no ambiente virtual:
+# Colocar diretório: cd imports
+# Chamar o arquivo e -r lê o arquivo todo: pip install -r requirements.txt 
+# Para utilizar o pacote: import nome_do_pacote
+# Para utilizar o pacote com nome reduzido (pequeno ganho de performance): import nome_do_pacote as abreviação_do_nome
