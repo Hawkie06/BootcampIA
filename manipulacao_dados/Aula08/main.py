@@ -114,7 +114,7 @@ data["universidade"] = vt
 # print(data.info())
 
 def transformacao_linguagem(text: str):
-    text = text.strip().lower().split(",")[0].split()[0]   #pesquisar sobre isso
+    text = text.strip().lower().split(",")[0].split()[0]   
     return text       
 
 collumn_name1 = "Linguagem de programação com experiência" 
