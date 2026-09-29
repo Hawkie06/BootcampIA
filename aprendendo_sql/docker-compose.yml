@@ -1,0 +1,12 @@
+services:
+  postgres:
+    image: postgres:18
+    container_name: sql-postgres
+    restart: unless-stopped
+
+    environment: # o enviroment aqui não é boa prática
+      - POSTGRES_USER=sql_user
+      - POSTGRES_PASSWORD=sql_password
+      - POSTGRES_DB=sql_bootcamp 
+    ports:
+      - "5332:5432"
